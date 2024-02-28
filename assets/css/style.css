@@ -69,3 +69,27 @@ h3 {
    width: 200px;
 }
 
+@media screen and (max-width: 400px) {
+
+   .container {
+      padding: 20px;
+      width: 90%;
+   }
+
+   h1 {
+      font-size: 25px;
+   }
+
+   h3 {
+      font-size: 15px;
+   }
+
+   .mensagem {
+
+      font-size: 15px;
+   }
+
+   .box {
+      font-size: 50px;
+   }
+}
