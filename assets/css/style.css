@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+   --bg-color: #35374B;
+   --primary-color: #50727B;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Inter', sans-serif;
+   color: white;
+}
+
+body {
+   background-color: var(--bg-color);
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   border-radius: 20px;
+   padding: 30px;
+   background-color: var(--primary-color);
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+   justify-content: center;
+   align-items: center;
+}
+
+h1 {
+   font-size: 60px;
+}
+
+h3 {
+   font-size: 30px;
+}
+
+.mensagem {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+   font-size: 25px;
+}
+
+#chute {
+   color: rgb(255, 69, 69);
+   font-weight: 700;
+}
+
+.box {
+   font-size: 90px;
+   color: rgb(255, 255, 255);
+}
+
+.jogar-bt {
+   padding: 10px;
+   border: none;
+   background-color: var(--bg-color);
+   border-radius: 15px;
+   margin-top: 20px;
+   width: 200px;
+}
+
